@@ -1,0 +1,83 @@
+body {
+  border-left: 17px solid hsl(330, 100%, 98%);
+  border-right: 17px solid hsl(330, 100%, 98%);
+  border-top: 25px solid hsl(330, 100%, 98%);
+  border-bottom: 25px solid hsl(330, 100%, 98%);
+}
+
+.desktop-img {
+  display: none;
+}
+.pic {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.container {
+  padding-bottom: 30px;
+}
+
+.bottom {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.container h4 {
+  font-size: 22px;
+  font-weight: 400;
+  color: hsl(228, 12%, 48%);
+  padding-top: 18px;
+}
+
+.container h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: hsl(212, 21%, 14%);
+  line-height: 42px;
+  padding-top: 8px;
+}
+
+.container p {
+  font-size: 18px;
+  font-weight: 400;
+  color: hsl(228, 12%, 48%);
+  padding-top: 12px;
+}
+
+.aside {
+  display: flex;
+  align-items: center;
+}
+
+.container h3 {
+  font-size: 34px;
+  font-weight: 700;
+  color: hsl(158, 36%, 37%);
+  padding-right: 20px;
+  padding-top: 19px;
+  padding-bottom: 10px;
+}
+
+.amount {
+  font-size: 10px;
+  font-weight: 400;
+  display: inline;
+  text-decoration: line-through;
+}
+
+.container button {
+  padding: 10px 70px;
+  color: hsl(0, 0%, 100%);
+  border: none;
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 7px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  width: 15px;
+}
